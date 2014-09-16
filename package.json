@@ -1,0 +1,9 @@
+{
+    "name": "Goto",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-template": "~0.2.3",
+        "type-of-is": "~3.3.0"
+    }
+}
