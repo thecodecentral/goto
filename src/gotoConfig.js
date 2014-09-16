@@ -16,8 +16,8 @@ exports.gotoMenu = [
     },
     {
         shortcut: 4,
-        description: 'Musics',
-        command: 'cd $HOME/Musics'
+        description: 'Music',
+        command: 'cd $HOME/Music'
     },
     {
         shortcut: 5,

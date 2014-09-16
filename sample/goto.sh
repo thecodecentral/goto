@@ -18,8 +18,8 @@ declare -A menu
 menu["1"]="Home"
 menu["2"]="Downloads"
 menu["3"]="Documents"
-menu["4"]="Musics"
-menu["5"]="Pictures"
+menu["4"]="Music"
+menu["5"]="Test Folder"
 menu["t"]="Open current dir in file manager"
 menu["q|0"]="Quit"
 
@@ -38,13 +38,13 @@ function doCommand(){
         cd $HOME/Documents
     ;;
     4)
-        cd $HOME/Musics
+        cd $HOME/Music
     ;;
     5)
-        cd $HOME/Pictures
+        cd $HOME/test
     ;;
     t)
-        nautilus . &
+        thunar .
     ;;
     q|0)
         break;
